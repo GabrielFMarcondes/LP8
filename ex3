@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void) {
+  int x = 0;
+
+  while( x < 20 ) {
+    x++;      
+    if( x == 3 ) {
+      continue;
+    }
+    if( x == 6 ) {
+      continue;
+    }
+    if( x == 9 ) {
+      continue;
+    }
+    if( x == 12 ) {
+      continue;
+    }
+    if( x == 15 ) {
+      continue;
+    }
+    if( x == 18 ) {
+      continue;
+    }
+    printf("%d ", x);
+  }
+
+  printf("\nValor atual de x: %d", x);
+  return 0;
+}
